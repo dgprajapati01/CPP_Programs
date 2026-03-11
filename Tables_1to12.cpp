@@ -4,16 +4,17 @@ using namespace std;
 
 int main()
 {
-    int multiplier, table;
-    for(table=1; table<=12; table++){
-    cout<<"Multiplication Table For"<<table<<":"<<endl;
+    int i, j;
+    for(i=1; i<=12; i++)
+    {
+    cout<<"Table Of "<<i<<endl;
 
-    for(multiplier=1; multiplier<=12; multiplier++);{
+    for(j=1; j<=10; j++)
+    {
 
-        int product = table*multiplier;
-        cout<< table<<"*"<<multiplier<<"="<<product<<endl;
+        cout<< i <<"x"<<j<<"="<<i*j<<endl;
     }
-    cout<<endl<<endl;
+    cout<<endl;
     }
     return 0;
 }
