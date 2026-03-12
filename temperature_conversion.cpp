@@ -30,24 +30,24 @@ int main()
     I.getdata();
     I.conversion();
 
-    cout<<"Canada \n";
+    cout<<"\n Canada \n";
     C.getdata();
     C.conversion();
 
-    cout<<"Australia \n";
+    cout<<"\n Australia \n";
     A.getdata();
     A.conversion();
 
-    cout << "Converted Temperature : \n";
+    cout << "\n Converted Temperature : \n";
     
-    cout << "India :";
+    cout << "India : ";
     I.display();
 
-    cout<< "Canada :";
+    cout<< "Canada : ";
     C.display();
 
-     cout<< "Australia :";
+     cout<< "Australia : ";
     A.display();
-    
+
     return 0;
 }
