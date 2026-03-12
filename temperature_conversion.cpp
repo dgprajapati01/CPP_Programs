@@ -5,6 +5,12 @@ class Temperature{
 public:
     float F, C;
 
+    void getdata()
+    {
+        cout << "Enter Temperature in Fharenhit: ";
+        cin>> F;
+    }
+
     void conversion()
     {
         C = (F - 32) * 5 / 9;
@@ -18,13 +24,30 @@ public:
 
 int main()
 {
-    Temperature t;
+    Temperature I, C, A;
 
-    cout << "Enter Temperature in Fahrenheit : \n";
-    cin >> t.F;
+    cout << "India \n";
+    I.getdata();
+    I.conversion();
 
-    t.conversion();
-    t.display();
+    cout<<"Canada \n";
+    C.getdata();
+    C.conversion();
 
+    cout<<"Australia \n";
+    A.getdata();
+    A.conversion();
+
+    cout << "Converted Temperature : \n";
+    
+    cout << "India :";
+    I.display();
+
+    cout<< "Canada :";
+    C.display();
+
+     cout<< "Australia :";
+    A.display();
+    
     return 0;
 }
