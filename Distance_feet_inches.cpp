@@ -27,12 +27,6 @@ class DISTANCE{
             temp.feet = d1.feet + d2.feet;
             temp.inches =d1.inches + d2.inches;
 
-            if(temp.inches >= 12)
-            {
-                temp.feet += temp.inches / 12;
-                temp.inches = temp.inches % 12;
-            }
-
             return temp;
         }
 };
