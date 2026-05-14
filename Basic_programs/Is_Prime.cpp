@@ -28,3 +28,13 @@ int main(){
 
 	return 0;
 }
+/*
+
+
+g++ Is_Prime.cpp -o Prime
+
+D:\2. Dhyey Sem 2\CPP_Programs\Basic_programs>Prime.exe
+Enter a Number 4
+4Is Not A Prime Number
+
+*/
