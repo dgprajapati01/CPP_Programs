@@ -46,3 +46,16 @@ int main() {
         
     return 0;
 }
+
+
+/*
+Enqueued: 10
+Queue: 10 
+Enqueued: 20
+Queue: 10 20 
+Enqueued: 30
+Queue: 10 20 30 
+Enqueued: 40
+Queue: 10 20 30 40 
+Enqueued: 50
+Queue: 10 20 30 40 50  */
